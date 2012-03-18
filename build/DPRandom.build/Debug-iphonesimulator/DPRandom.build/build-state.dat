@@ -1,0 +1,267 @@
+TDPRandom
+v7
+r0
+t353746672.882593
+cCheck dependencies
+cProcessInfoPlistFile /Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app/Info.plist DPRandom-Info.plist
+cCompileXIB /Users/DODOwoo/Projects/appfile/DPRandom/MainWindow.xib
+cCompileXIB /Users/DODOwoo/Projects/appfile/DPRandom/DPRandomViewController.xib
+cProcessPCH /var/folders/UM/UMM7xEBrEyGLbSNnngA83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DPRandom_Prefix-fboicijwxcxznyeegakiiwbjmdfn/DPRandom_Prefix.pch.gch DPRandom_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/Objects-normal/i386/main.o /Users/DODOwoo/Projects/appfile/DPRandom/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/Objects-normal/i386/DPRandomAppDelegate.o /Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/Objects-normal/i386/DPRandomViewController.o /Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app/DPRandom normal i386
+cGenerateDSYMFile /Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app.dSYM /Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app/DPRandom
+cTouch /Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomAppDelegate.h
+c000000004F644ABC00000000000001E0
+t1331972796
+s480
+i<UIKit/UIKit.h>
+
+N/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomAppDelegate.m
+c000000004F65876E0000000000000ABF
+t1332053870
+s2751
+i"DPRandomAppDelegate.h"
+i"DPRandomViewController.h"
+
+N/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.h
+c000000004F658408000000000000047F
+t1332053000
+s1151
+i<UIKit/UIKit.h>
+
+N/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m
+c000000004F65875500000000000025FE
+t1332053845
+s9726
+i"DPRandomViewController.h"
+
+N/Users/DODOwoo/Projects/appfile/DPRandom/DPRandomViewController.xib
+c000000004F6583A3000000000000922E
+t1332052899
+s37422
+
+N/Users/DODOwoo/Projects/appfile/DPRandom/DPRandom_Prefix.pch
+c000000004F644ABC00000000000000B9
+t1331972796
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/DODOwoo/Projects/appfile/DPRandom/MainWindow.xib
+c000000004F644ABC0000000000004E35
+t1331972796
+s20021
+
+N/Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/Objects-normal/i386/DPRandom.LinkFileList
+c000000004F6583D5000000000000019B
+t1332052949
+s411
+
+N/Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/Objects-normal/i386/DPRandomAppDelegate.o
+t1332053872
+s47848
+
+N/Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/Objects-normal/i386/DPRandomViewController.o
+t1332053848
+s95432
+
+N/Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/Objects-normal/i386/main.o
+t1332052951
+s6308
+
+N/Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app
+t1332053872
+s238
+
+N/Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app.dSYM
+t1332053872
+s102
+
+N/Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app/DPRandom
+t1332053872
+s40492
+
+N/Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app/DPRandomViewController.nib
+t1332052950
+s4862
+
+N/Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app/Info.plist
+t1332052949
+s595
+
+N/Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app/MainWindow.nib
+t1332052950
+s1683
+
+N/Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app/PkgInfo
+t1332052949
+s8
+
+N/Users/DODOwoo/Projects/appfile/DPRandom/main.m
+c000000004F644ABC0000000000000165
+t1331972796
+s357
+i<UIKit/UIKit.h>
+
+N/var/folders/UM/UMM7xEBrEyGLbSNnngA83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DPRandom_Prefix-fboicijwxcxznyeegakiiwbjmdfn/DPRandom_Prefix.pch.gch
+t1332052951
+s15211536
+
+NDPRandom-Info.plist
+c000000004F644ABC000000000000038D
+t1331972796
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies353746672#353746672#0(0"0(0#1#0"8625897984#0"0#
+
+CCompileC build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/Objects-normal/i386/DPRandomAppDelegate.o /Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s353746672.593529
+e353746672.818683
+r1
+xCompileC
+xbuild/DPRandom.build/Debug-iphonesimulator/DPRandom.build/Objects-normal/i386/DPRandomAppDelegate.o
+x/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomAppDelegate.m353746672#353746672#0(0"0(0#0#70"/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomAppDelegate.m8625018848#1994"    cd /Users/DODOwoo/Projects/appfile/DPRandom    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/DPRandom-generated-files.hmap -I/Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/DPRandom-own-target-headers.hmap -I/Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/DPRandom-all-target-headers.hmap -iquote /Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/DPRandom-project-headers.hmap -F/Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator -I/Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/include -I/Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/DerivedSources/i386 -I/Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/DerivedSources -include /var/folders/UM/UMM7xEBrEyGLbSNnngA83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DPRandom_Prefix-fboicijwxcxznyeegakiiwbjmdfn/DPRandom_Prefix.pch -c /Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomAppDelegate.m -o /Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/Objects-normal/i386/DPRandomAppDelegate.o0#
+
+CCompileC build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/Objects-normal/i386/DPRandomViewController.o /Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s353746647.759236
+e353746648.047979
+r1
+xCompileC
+xbuild/DPRandom.build/Debug-iphonesimulator/DPRandom.build/Objects-normal/i386/DPRandomViewController.o
+x/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m: In function '-[DPRandomViewController webViewDidFinishLoad:]':
+o/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m:58: warning: local declaration of 'webView' hides instance variable
+o/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m:64: warning: local declaration of 'webView' hides instance variable
+o/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m: In function '-[DPRandomViewController RandomShopID:]':
+o/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m:109: warning: format not a string literal and no format arguments
+o/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m: In function '-[DPRandomViewController motionEnded:withEvent:]':
+o/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m:122: warning: format not a string literal and no format arguments
+o/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m: In function '-[DPRandomViewController actionSheet:clickedButtonAtIndex:]':
+o/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m:145: warning: format not a string literal and no format arguments
+lSLF07#2@81"Compile /Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m353746647#353746648#0(1261"/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m: In function '-[DPRandomViewController webViewDidFinishLoad:]':/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m:58: warning: local declaration of 'webView' hides instance variable/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m:64: warning: local declaration of 'webView' hides instance variable/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m: In function '-[DPRandomViewController RandomShopID:]':/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m:109: warning: format not a string literal and no format arguments/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m: In function '-[DPRandomViewController motionEnded:withEvent:]':/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m:122: warning: format not a string literal and no format arguments/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m: In function '-[DPRandomViewController actionSheet:clickedButtonAtIndex:]':/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m:145: warning: format not a string literal and no format arguments5(22@54"Local declaration of 'webView' hides instance variable353746647#138#142#0(6@73"/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m353746645#58#0#58#0#0"0(22@54"Local declaration of 'webView' hides instance variable353746647#280#142#0(6@73"/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m353746645#64#0#64#0#0"0(22@51"Format not a string literal and no format arguments353746647#552#140#0(6@73"/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m353746645#109#0#109#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments353746647#831#140#0(6@73"/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m353746645#122#0#122#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments353746647#1121#140#0(6@73"/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m353746645#145#0#145#0#51"format not a string literal and no format arguments0(0#0#73"/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m8624452800#2000"    cd /Users/DODOwoo/Projects/appfile/DPRandom    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/DPRandom-generated-files.hmap -I/Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/DPRandom-own-target-headers.hmap -I/Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/DPRandom-all-target-headers.hmap -iquote /Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/DPRandom-project-headers.hmap -F/Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator -I/Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/include -I/Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/DerivedSources/i386 -I/Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/DerivedSources -include /var/folders/UM/UMM7xEBrEyGLbSNnngA83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DPRandom_Prefix-fboicijwxcxznyeegakiiwbjmdfn/DPRandom_Prefix.pch -c /Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m -o /Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/Objects-normal/i386/DPRandomViewController.o0#
+
+CCompileC build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/Objects-normal/i386/main.o /Users/DODOwoo/Projects/appfile/DPRandom/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s353745751.717438
+e353745751.917913
+r1
+xCompileC
+xbuild/DPRandom.build/Debug-iphonesimulator/DPRandom.build/Objects-normal/i386/main.o
+x/Users/DODOwoo/Projects/appfile/DPRandom/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/DODOwoo/Projects/appfile/DPRandom/main.m353745751#353745751#0(0"0(0#0#47"/Users/DODOwoo/Projects/appfile/DPRandom/main.m8625253920#1956"    cd /Users/DODOwoo/Projects/appfile/DPRandom    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/DPRandom-generated-files.hmap -I/Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/DPRandom-own-target-headers.hmap -I/Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/DPRandom-all-target-headers.hmap -iquote /Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/DPRandom-project-headers.hmap -F/Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator -I/Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/include -I/Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/DerivedSources/i386 -I/Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/DerivedSources -include /var/folders/UM/UMM7xEBrEyGLbSNnngA83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DPRandom_Prefix-fboicijwxcxznyeegakiiwbjmdfn/DPRandom_Prefix.pch -c /Users/DODOwoo/Projects/appfile/DPRandom/main.m -o /Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/DODOwoo/Projects/appfile/DPRandom/DPRandomViewController.xib
+s353745749.882473
+e353745750.547093
+r1
+xCompileXIB
+x/Users/DODOwoo/Projects/appfile/DPRandom/DPRandomViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@37"CompileXIB DPRandomViewController.xib353745749#353745750#0(168"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#67"/Users/DODOwoo/Projects/appfile/DPRandom/DPRandomViewController.xib8625290816#601"    cd /Users/DODOwoo/Projects/appfile/DPRandom    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app/DPRandomViewController.nib /Users/DODOwoo/Projects/appfile/DPRandom/DPRandomViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/DODOwoo/Projects/appfile/DPRandom/MainWindow.xib
+s353745749.851332
+e353745750.342646
+r1
+xCompileXIB
+x/Users/DODOwoo/Projects/appfile/DPRandom/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib353745749#353745750#0(0"0(0#0#55"/Users/DODOwoo/Projects/appfile/DPRandom/MainWindow.xib8625687008#577"    cd /Users/DODOwoo/Projects/appfile/DPRandom    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app/MainWindow.nib /Users/DODOwoo/Projects/appfile/DPRandom/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CGenerateDSYMFile /Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app.dSYM /Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app/DPRandom
+s353746672.852976
+e353746672.875898
+r1
+xGenerateDSYMFile
+x/Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app.dSYM
+x/Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app/DPRandom
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/DPRandom.app.dSYM build/Debug-iphonesimulator/DPRandom.app/DPRandom353746672#353746672#0(0"0(0#0#90"/Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app/DPRandom8625095616#392"    cd /Users/DODOwoo/Projects/appfile/DPRandom    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app/DPRandom -o /Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app.dSYM0#
+
+CLd /Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app/DPRandom normal i386
+s353746672.818778
+e353746672.852865
+r1
+xLd
+x/Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app/DPRandom
+xnormal
+xi386
+lSLF07#2@95"Link /Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app/DPRandom353746672#353746672#0(0"0(0#0#0"8626728128#915"    cd /Users/DODOwoo/Projects/appfile/DPRandom    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator -F/Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator -filelist /Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/Objects-normal/i386/DPRandom.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app/DPRandom0#
+
+CProcessInfoPlistFile /Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app/Info.plist DPRandom-Info.plist
+s353745749.785152
+e353745749.851232
+r1
+xProcessInfoPlistFile
+x/Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app/Info.plist
+xDPRandom-Info.plist
+lSLF07#2@27"Process DPRandom-Info.plist353745749#353745749#0(0"0(0#0#60"/Users/DODOwoo/Projects/appfile/DPRandom/DPRandom-Info.plist31525648366108776#488"    cd /Users/DODOwoo/Projects/appfile/DPRandom    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility DPRandom-Info.plist -genpkginfo /Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app/Info.plist0#
+
+CProcessPCH /var/folders/UM/UMM7xEBrEyGLbSNnngA83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DPRandom_Prefix-fboicijwxcxznyeegakiiwbjmdfn/DPRandom_Prefix.pch.gch DPRandom_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s353745750.547305
+e353745751.717233
+r1
+xProcessPCH
+x/var/folders/UM/UMM7xEBrEyGLbSNnngA83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DPRandom_Prefix-fboicijwxcxznyeegakiiwbjmdfn/DPRandom_Prefix.pch.gch
+xDPRandom_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile DPRandom_Prefix.pch353745750#353745751#0(0"0(0#0#60"/Users/DODOwoo/Projects/appfile/DPRandom/DPRandom_Prefix.pch8625452896#1845"    cd /Users/DODOwoo/Projects/appfile/DPRandom    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/DPRandom-generated-files.hmap -I/Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/DPRandom-own-target-headers.hmap -I/Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/DPRandom-all-target-headers.hmap -iquote /Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/DPRandom-project-headers.hmap -F/Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator -I/Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/include -I/Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/DerivedSources/i386 -I/Users/DODOwoo/Projects/appfile/DPRandom/build/DPRandom.build/Debug-iphonesimulator/DPRandom.build/DerivedSources -c /Users/DODOwoo/Projects/appfile/DPRandom/DPRandom_Prefix.pch -o /var/folders/UM/UMM7xEBrEyGLbSNnngA83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DPRandom_Prefix-fboicijwxcxznyeegakiiwbjmdfn/DPRandom_Prefix.pch.gch0#
+
+CTouch /Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app
+s353746672.875985
+e353746672.882547
+r1
+xTouch
+x/Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app
+lSLF07#2@87"Touch /Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app353746672#353746672#0(0"0(0#0#0"8624000352#283"    cd /Users/DODOwoo/Projects/appfile/DPRandom    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/DODOwoo/Projects/appfile/DPRandom/build/Debug-iphonesimulator/DPRandom.app0#
+
