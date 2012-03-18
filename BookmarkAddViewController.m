@@ -16,7 +16,22 @@
 
 -(void)AddBookMark{
 	NSLog([NSString stringWithFormat:@"title:%@, url:%@",self.shoptitle.text, self.shopurl.text]);
-	[self.adddelegate AddBookmarkWithTitle:self.shoptitle.text URL:self.shopurl.text];
+	NSString *shopname = self.shoptitle.text;
+	@try {
+		shopname = [shopname substringToIndex:[shopname rangeOfString:@"_"].location];
+	}
+	@catch (NSException * e) {
+		NSLog(@"Exception caught %@: %@",[e name], [e reason]);
+		shopname = self.shoptitle.text;
+	}
+	@finally {
+	}
+	
+	[self.adddelegate AddBookmarkWithTitle:shopname URL:self.shopurl.text];
+	[self dismissModalViewControllerAnimated:YES];
+}
+
+- (void)backToMain{
 	[self dismissModalViewControllerAnimated:YES];
 }
 
@@ -26,6 +41,9 @@
 	UIBarButtonItem *saveButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSave target:self action:@selector(AddBookMark)];
 	self.navigationItem.rightBarButtonItem = saveButton;
 	[saveButton release];
+	UIBarButtonItem *cancelButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(backToMain)];
+	self.navigationItem.leftBarButtonItem = cancelButton;
+	[cancelButton release];
     [super viewDidLoad];
 }
 

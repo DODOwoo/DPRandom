@@ -130,7 +130,7 @@
 
 - (IBAction)editEnd:(id)sender{
 	NSString *url = self.urltext.text;
-	if ([url rangeOfString:@"dianping.com"].length == 0) {
+	if ([url rangeOfString:@"dianping.com"].location == NSNotFound) {
 		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Oops" message:@"人家才不是你的Safari呢" delegate:nil cancelButtonTitle:@"哼" otherButtonTitles:nil];
 		[alert show];
 		[alert release];
