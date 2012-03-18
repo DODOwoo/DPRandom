@@ -1,9 +1,0 @@
-/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m: In function '-[DPRandomViewController webViewDidFinishLoad:]':
-/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m:58: warning: local declaration of 'webView' hides instance variable
-/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m:64: warning: local declaration of 'webView' hides instance variable
-/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m: In function '-[DPRandomViewController RandomShopID:]':
-/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m:109: warning: format not a string literal and no format arguments
-/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m: In function '-[DPRandomViewController motionEnded:withEvent:]':
-/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m:122: warning: format not a string literal and no format arguments
-/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m: In function '-[DPRandomViewController actionSheet:clickedButtonAtIndex:]':
-/Users/DODOwoo/Projects/appfile/DPRandom/Classes/DPRandomViewController.m:145: warning: format not a string literal and no format arguments

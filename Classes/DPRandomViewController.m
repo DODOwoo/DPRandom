@@ -22,6 +22,30 @@
 @synthesize animateditem;
 
 #pragma mark -
+#pragma mark BookmarkViewController Delegate
+-(void)LoadWebViewAndSetUrl:(NSString *)urlstring{
+	//NSLog([NSString stringWithFormat:@"book to main :%@",urlstring]);
+	[self.urltext setText:urlstring];
+	[self LoadWebView:urlstring];
+}
+
+-(void)DeleteBookMarkWithUrl:(NSString *)urlstring Title:(NSString *)titlestring{
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	NSArray *arrr = [[NSArray alloc] init];
+	NSArray *arrrurl = [[NSArray alloc] init];
+	arrr = [defaults arrayForKey: @"shoptitle"];
+	arrrurl = [defaults arrayForKey:@"shopurl"];
+	NSMutableArray *mutablearr = [arrr mutableCopy];
+	NSMutableArray *mutablearrurl = [arrrurl mutableCopy];
+	[arrr release];
+	[arrrurl release];
+	[mutablearr removeObject:titlestring];
+	[mutablearrurl removeObject:urlstring];
+	[defaults setObject:mutablearr forKey:@"shoptitle"];
+	[defaults setObject:mutablearrurl forKey:@"shopurl"];
+}
+
+#pragma mark -
 #pragma mark WebView Methods
 - (void)LoadWebView:(NSString *)urlstring {
 	//	[self.webView resignFirstResponder];
@@ -42,11 +66,6 @@
 	}
 }
 
--(void)LoadWebViewAndSetUrl:(NSString *)urlstring{
-	//NSLog([NSString stringWithFormat:@"book to main :%@",urlstring]);
-	[self.urltext setText:urlstring];
-	[self LoadWebView:urlstring];
-}
 
 - (void)webViewDidStartLoad:(UIWebView *)webView{
 	UIApplication *app = [UIApplication sharedApplication];
@@ -129,11 +148,11 @@
 #pragma mark BarItem Click
 - (IBAction)bookmarkClicked{
 	NSLog(@"book mark clicked");
-//	BookMarkViewController *bookmark = [[BookMarkViewController alloc] initWithNibName:@"BookMarkViewController" bundle:[NSBundle mainBundle]];
-//	bookmark.bookdelegate = self;	
-//	UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:bookmark];
-//	//[bookmark.view addSubview:[bookmark.navController view]];
-//	[self presentModalViewController:nav animated:YES];
+	BookmarkViewController *bookmark = [[BookmarkViewController alloc] initWithNibName:@"BookmarkViewController" bundle:[NSBundle mainBundle]];
+	bookmark.bookdelegate = self;	
+	UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:bookmark];
+	//[bookmark.view addSubview:[bookmark.navController view]];
+	[self presentModalViewController:nav animated:YES];
 }
 
 - (IBAction)popActionSheet{

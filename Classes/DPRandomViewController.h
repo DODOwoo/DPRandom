@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BookmarkViewController.h"
 
-@interface DPRandomViewController : UIViewController<UIWebViewDelegate,UITextFieldDelegate,UIActionSheetDelegate> {
+@interface DPRandomViewController : UIViewController<UIWebViewDelegate,UITextFieldDelegate,UIActionSheetDelegate,
+BookmarkViewControllerDelegate> {
 
 }
 
