@@ -8,9 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import "BookmarkViewController.h"
+#import "BookmarkAddViewController.h"
+
+#define TitleKey @"shoptitle"
+#define UrlKey @"shopurl"
+#define ShopListKey @"shshoplist"
+#define DefaultUrl @"http://wap.dianping.com/"
 
 @interface DPRandomViewController : UIViewController<UIWebViewDelegate,UITextFieldDelegate,UIActionSheetDelegate,
-BookmarkViewControllerDelegate> {
+BookmarkViewControllerDelegate, BookmarkAddControllerDelegate> {
 
 }
 

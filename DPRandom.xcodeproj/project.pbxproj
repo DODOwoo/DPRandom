@@ -17,6 +17,9 @@
 		28D7ACF80DDB3853001CB0EB /* DPRandomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* DPRandomViewController.m */; };
 		37B8322815160CCF00FFE5DF /* BookmarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B8322615160CCF00FFE5DF /* BookmarkViewController.m */; };
 		37B8322915160CCF00FFE5DF /* BookmarkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B8322715160CCF00FFE5DF /* BookmarkViewController.xib */; };
+		37B83241151614C100FFE5DF /* BookmarkAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B8323F151614C100FFE5DF /* BookmarkAddViewController.m */; };
+		37B83242151614C100FFE5DF /* BookmarkAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B83240151614C100FFE5DF /* BookmarkAddViewController.xib */; };
+		37B8325B1516185E00FFE5DF /* bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B8325A1516185E00FFE5DF /* bookmark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,10 @@
 		37B8322515160CCF00FFE5DF /* BookmarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarkViewController.h; sourceTree = "<group>"; };
 		37B8322615160CCF00FFE5DF /* BookmarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarkViewController.m; sourceTree = "<group>"; };
 		37B8322715160CCF00FFE5DF /* BookmarkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BookmarkViewController.xib; path = Classes/BookmarkViewController.xib; sourceTree = "<group>"; };
+		37B8323E151614C100FFE5DF /* BookmarkAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookmarkAddViewController.h; path = ../BookmarkAddViewController.h; sourceTree = "<group>"; };
+		37B8323F151614C100FFE5DF /* BookmarkAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookmarkAddViewController.m; path = ../BookmarkAddViewController.m; sourceTree = "<group>"; };
+		37B83240151614C100FFE5DF /* BookmarkAddViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookmarkAddViewController.xib; sourceTree = "<group>"; };
+		37B8325A1516185E00FFE5DF /* bookmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookmark.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* DPRandom-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DPRandom-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,6 +62,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				37B8323E151614C100FFE5DF /* BookmarkAddViewController.h */,
+				37B8323F151614C100FFE5DF /* BookmarkAddViewController.m */,
 				1D3623240D0F684500981E51 /* DPRandomAppDelegate.h */,
 				1D3623250D0F684500981E51 /* DPRandomAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* DPRandomViewController.h */,
@@ -97,6 +106,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				37B8325A1516185E00FFE5DF /* bookmark.png */,
+				37B83240151614C100FFE5DF /* BookmarkAddViewController.xib */,
 				37B8322715160CCF00FFE5DF /* BookmarkViewController.xib */,
 				2899E5210DE3E06400AC0155 /* DPRandomViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
@@ -167,6 +178,8 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* DPRandomViewController.xib in Resources */,
 				37B8322915160CCF00FFE5DF /* BookmarkViewController.xib in Resources */,
+				37B83242151614C100FFE5DF /* BookmarkAddViewController.xib in Resources */,
+				37B8325B1516185E00FFE5DF /* bookmark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +194,7 @@
 				1D3623260D0F684500981E51 /* DPRandomAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* DPRandomViewController.m in Sources */,
 				37B8322815160CCF00FFE5DF /* BookmarkViewController.m in Sources */,
+				37B83241151614C100FFE5DF /* BookmarkAddViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

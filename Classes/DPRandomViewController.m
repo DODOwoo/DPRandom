@@ -33,16 +33,38 @@
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 	NSArray *arrr = [[NSArray alloc] init];
 	NSArray *arrrurl = [[NSArray alloc] init];
-	arrr = [defaults arrayForKey: @"shoptitle"];
-	arrrurl = [defaults arrayForKey:@"shopurl"];
+	arrr = [defaults arrayForKey: TitleKey];
+	arrrurl = [defaults arrayForKey:UrlKey];
 	NSMutableArray *mutablearr = [arrr mutableCopy];
 	NSMutableArray *mutablearrurl = [arrrurl mutableCopy];
 	[arrr release];
 	[arrrurl release];
 	[mutablearr removeObject:titlestring];
 	[mutablearrurl removeObject:urlstring];
-	[defaults setObject:mutablearr forKey:@"shoptitle"];
-	[defaults setObject:mutablearrurl forKey:@"shopurl"];
+	[defaults setObject:mutablearr forKey:TitleKey];
+	[defaults setObject:mutablearrurl forKey:UrlKey];
+}
+
+#pragma mark -
+#pragma mark BookmarkAdd Delegate
+-(void)AddBookmarkWithTitle:(NSString *)newtitle URL:(NSString *)newurl{
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	NSArray *mutablearr = [defaults arrayForKey: TitleKey];
+	NSArray *mutablearrurl = [defaults arrayForKey:UrlKey];
+	if ([mutablearr count] == 0) {
+		mutablearr = [[NSArray alloc] initWithObjects:newtitle, nil];
+	}
+	else {
+		mutablearr = [mutablearr arrayByAddingObject:newtitle];
+	}
+	if ([mutablearrurl count] == 0) {
+		mutablearrurl = [[NSArray alloc] initWithObjects:newurl, nil];
+	}
+	else {
+		mutablearrurl = [mutablearrurl arrayByAddingObject:newurl];
+	}
+	[defaults setObject:mutablearr forKey:TitleKey];
+	[defaults setObject:mutablearrurl forKey:UrlKey];
 }
 
 #pragma mark -
@@ -74,13 +96,13 @@
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView{
 	NSLog(@"load end");
-	webView.alpha = 1.0;	
+	self.webView.alpha = 1.0;	
 	UIApplication *app = [UIApplication sharedApplication];
 	app.networkActivityIndicatorVisible = NO;
 	animateditem.hidesWhenStopped = YES;
 	[animateditem stopAnimating];
 	
-	self.urltitle = [webView stringByEvaluatingJavaScriptFromString:@"document.title"];
+	self.urltitle = [self.webView stringByEvaluatingJavaScriptFromString:@"document.title"];
 	//NSLog([NSString stringWithFormat:@"can go back:%d",[self.webView canGoBack]]);
 	self.goBackItem.enabled = [self.webView canGoBack];
 	self.goFowardItem.enabled = [self.webView canGoForward];
@@ -112,7 +134,7 @@
 		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Oops" message:@"人家才不是你的Safari呢" delegate:nil cancelButtonTitle:@"哼" otherButtonTitles:nil];
 		[alert show];
 		[alert release];
-		[self LoadWebViewAndSetUrl:@"http://wap.dianping.com"];
+		[self LoadWebViewAndSetUrl:DefaultUrl];
 	}
 	else {
 		[self LoadWebView:self.urltext.text];
@@ -135,7 +157,7 @@
 	if (motion == UIEventSubtypeMotionShake)
     {
         //NSLog(@"if shake!");
-		NSArray *arr = [[NSUserDefaults standardUserDefaults] arrayForKey:@"shshoplist"];
+		NSArray *arr = [[NSUserDefaults standardUserDefaults] arrayForKey:ShopListKey];
 		NSString *strshopid = [self RandomShopID:arr];
 		NSString *shopurl = [NSString stringWithFormat:@"http://wap.dianping.com/wap2/RsDetail.aspx?id=%@",strshopid];
 		NSLog(shopurl);
@@ -164,13 +186,13 @@
 	NSLog([NSString stringWithFormat:@"clicked:%d",buttonIndex]);
 	//[actionSheet dismissWithClickedButtonIndex:buttonIndex animated:YES];
 	if (buttonIndex == 0) {
-//		BookMarkAddViewController *addbookmark = [[BookMarkAddViewController alloc] initWithNibName:@"BookMarkAddViewController" bundle:[NSBundle mainBundle]];
-//		addbookmark.delegate = self;
-//		[addbookmark view];
-//		addbookmark.myurl.text = self.urltext.text;
-//		addbookmark.mytitle.text = self.urltitle;
-//		UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:addbookmark];
-//		[self presentModalViewController:nav animated:YES];
+		BookmarkAddViewController *addbookmark = [[BookmarkAddViewController alloc] initWithNibName:@"BookmarkAddViewController" bundle:[NSBundle mainBundle]];
+		addbookmark.adddelegate = self;
+		[addbookmark view];
+		addbookmark.shopurl.text = self.urltext.text;
+		addbookmark.shoptitle.text = [webView stringByEvaluatingJavaScriptFromString:@"document.title"];//self.urltitle;
+		UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:addbookmark];
+		[self presentModalViewController:nav animated:YES];
 	}
 }
 
@@ -199,13 +221,13 @@
 	if (!self.urltext.text || [self.urltext.text length] ==0) {
 		self.actionsheet.enabled = FALSE;
 		//wap2/RsDetail.aspx?id=507330
-		[self LoadWebViewAndSetUrl:@"http://wap.dianping.com/"];
+		[self LoadWebViewAndSetUrl:DefaultUrl];
 	}
 	self.goBackItem.enabled = FALSE;
 	self.goFowardItem.enabled = FALSE;
 
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-	NSArray *temparr = [defaults arrayForKey:@"shshoplist"];
+	NSArray *temparr = [defaults arrayForKey:ShopListKey];
 	if ([temparr count] == 0) {
 		temparr = [[NSArray alloc] initWithObjects://@"507330",@"4515041",@"3578740",@"4523548",@"2925940",@"3121594",nil];
 				   @"4550707",@"2032762",@"4989634",@"5157153",@"5429278",@"2244616",@"501115",@"5435096",@"5391580",@"4711908",
@@ -229,7 +251,7 @@
 				   @"2730220",@"5601702",@"2540248",@"5279890",@"3690400",@"4505553",@"2845705",@"2508886",@"1946194",@"5493528",
 				   @"502873",@"2725975",@"3344380",@"2313757",@"4712756",@"2538064",@"3196078",@"565186",@"5330165",@"5195093",
 				   @"5479533",@"3081706",@"583339",@"3377959",@"2186266",@"1965565",@"4556167",@"4618199",@"3666838",nil];
-		[defaults setObject:temparr forKey:@"shshoplist"];
+		[defaults setObject:temparr forKey:ShopListKey];
 	}
 	//[defaults synchronize];
 	[temparr release];
